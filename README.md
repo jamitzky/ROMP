@@ -2,13 +2,13 @@
 
 ## R openMP API
 * R Syntax to Fortran Converter
-* Accelerate R code by compilation
-* Parallelize R code by vectorization
-* Speedup by Compilation: ~100
-* Speedup by Vectorization: number of cores (ideally)
+* Accelerate R code by compilation (translation to machine code and optimization)
+* Parallelize R code by vectorization using openMP
+* Speedup by Compilation: typically ~100
+* Speedup by Vectorization using openMP: number of cores (Amdahl's law)
 
 * ROMP scales up to several 100 cores (SMP)
-* Acceleration up to several 10000 vs pure R Version
+* Acceleration up to several 10000x vs pure R Version
 * Pre Alpha Version (since 2005 :-( )
 
 ## How it is done:
