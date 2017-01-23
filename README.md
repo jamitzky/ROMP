@@ -63,7 +63,8 @@ comp.dens(x, r=0.1, ndim=3, np=100000)
 ```
 # Results
 By running Romp on an SGI Altix we obtained the following numbers:
-
-| Pure R | nproc=1 | time = 21800s = 6h |
-| Romp   | nproc=1 | time = 3.2s        |
-| Romp   | nproc=8 | time = 0.6s        |
+| Version |nprocs | time |
+| --- | --- | --- |
+| Pure R | 1 | 21800s = 6h |
+| Romp   | 1 | 3.2s        |
+| Romp   | 8 | 0.6s        |
