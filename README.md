@@ -6,7 +6,6 @@
 * Parallelize R code by vectorization using openMP
 * Speedup by Compilation: typically ~100
 * Speedup by Vectorization using openMP: number of cores (Amdahl's law)
-
 * ROMP scales up to several 100 cores (SMP)
 * Acceleration up to several 10000x vs pure R Version
 * Pre Alpha Version (since 2005 :-( )
