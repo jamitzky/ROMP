@@ -35,7 +35,7 @@ the summation can also be written as: res=sum((x-y)**2)
 ROMP code: 
 ```R 
 sum.mp(dosum,(x[i]-y[i])**2, dbl(),i=1:100)
-dosum.f = compile.mp(dosum(),dbl(),x=dbl(100),y=dbl(100))
+dosum.f <- compile.mp(dosum(),dbl(),x=dbl(100),y=dbl(100))
 dosum.f(res=res, x=x, y=y) 
 ```
 # Examples
