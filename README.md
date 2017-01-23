@@ -1,9 +1,4 @@
 # ROMP
-OpenMP Bindings for R
-
-Introduction
-
-# ROMP
 
 R openMP API
 R Syntax to Fortran Converter
